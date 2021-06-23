@@ -45,8 +45,9 @@ body{
     display: flex;
     flex-direction: row;
     gap: 10px;
-    max-width: 400px;
+    max-width: 350px;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .chip-container{
     display: flex;

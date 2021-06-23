@@ -12,6 +12,7 @@ const addContact = (e) => {
     chipContainer.appendChild(imgEl);
     chipContainer.appendChild(chipNameEl);
     allContactsContainer.appendChild(chipContainer);
+    inputBox.value = "";
 }
 const removeContact = (e) => {
     e.target.parentNode.parentNode.remove();
