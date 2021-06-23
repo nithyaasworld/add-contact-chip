@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, #C6E7FD, #D4FFDF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 1em;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.default-avatar {
+    width: 35px;
+    border-radius: 50%;
+}
+.close-btn{
+    cursor: pointer;
+    color: grey;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.add-contact-container{
+    background-color: white;
+    padding: 1em;
+}
+.add-btn{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-image: linear-gradient(to right, #C6E7FD, #D4FFDF);
+}
+.contact-input{
+    padding: 5px;
+    outline-color: #B173AF;
+}
+.all-contacts-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    max-width: 400px;
+    flex-wrap: wrap;
+}
+.chip-container{
+    display: flex;
+    gap: 5px;
+    background-color: white;
+    border-radius: 50px;
+    padding-right: 5px;
+    display: flex;
+    align-items: center;
+}
