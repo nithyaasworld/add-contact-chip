@@ -1,0 +1,4 @@
+steps:
+  - group: "test"
+    steps:
+      - command: echo "3"
