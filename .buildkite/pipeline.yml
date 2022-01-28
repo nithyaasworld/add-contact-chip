@@ -1,4 +1,3 @@
 steps:
-  - group: "test"
-    steps:
-      - command: echo "3"
+  - command: echo "$BUILDKITE_BUILD_NUMBER"
+  - command: echo "$$BUILDKITE_BUILD_NUMBER"
