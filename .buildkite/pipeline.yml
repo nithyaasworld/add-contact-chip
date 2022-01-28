@@ -1,3 +1,5 @@
 steps:
-  - command: echo "$BUILDKITE_BUILD_NUMBER"
-  - command: echo "$$BUILDKITE_BUILD_NUMBER"
+  - label: "single dollar"
+    command: echo "$BUILDKITE_BUILD_NUMBER"
+  - label: "double dollar"
+    command: echo "$$BUILDKITE_BUILD_NUMBER"
