@@ -1,21 +1,5 @@
 steps:
-  - command: sleep 10
+  - command: sleep 1
     label: step1
-  - command: sleep 20
+  - command: sleep 2
     label: step2
-  - command: sleep 30
-    label: step3
-  - command: sleep 30
-    label: step4
-  - command: sleep 30
-    label: step5
-  - command: sleep 30
-    label: step6
-  - command: sleep 30
-    label: step7
-  - command: sleep 30
-    label: step8
-  - command: sleep 30
-    label: step9
-  - command: sleep 30
-    label: step10
