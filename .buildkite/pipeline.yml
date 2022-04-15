@@ -1,5 +1,22 @@
 steps:
-  - label: "step 1"
-    command: echo "$BUILDKITE_BUILD_NUMBER"
-  - label: "step 2"
-    command: echo "$$BUILDKITE_BUILD_NUMBER"
+  - command: sleep 10
+    label: step1
+  - command: sleep 20
+    depends_on: “uploading-step”
+    label: step2
+  - command: sleep 30
+    label: step3
+  - command: sleep 30
+    label: step4
+  - command: sleep 30
+    label: step5
+  - command: sleep 30
+    label: step6
+  - command: sleep 30
+    label: step7
+  - command: sleep 30
+    label: step8
+  - command: sleep 30
+    label: step9
+  - command: sleep 30
+    label: step10
