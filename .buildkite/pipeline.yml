@@ -2,7 +2,7 @@ steps:
   - command: sleep 10
     label: step1
   - command: sleep 20
-    depends_on: “uploading-step”
+    depends_on: "uploading-step"
     label: step2
   - command: sleep 30
     label: step3
